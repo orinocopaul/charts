@@ -41,7 +41,7 @@
             "icon": "https://media.sys.truenas.net/apps/jellyfin/icons/icon.svg",
             "sources": [
                 "https://hub.docker.com/r/jellyfin/jellyfin",
-                "https://github.com/truenas/charts/tree/master/community/jellyfin",
+                "https://github.com/orinocopaul/charts/tree/master/community/jellyfin",
                 "https://jellyfin.org/"
             ],
             "keywords": [
