@@ -4,21 +4,21 @@ jellyfinNetwork:
 jellyfinRunAs:
   user: 1000
   group: 1000
-  supplementalGroups:
-    - 44
+  supplementalGroups: 44
 
 jellyfinStorage:
   config:
     type: pvc
   cache:
     type: pvc
-  securityContext:
-    privileged: true
   transcodes:
     type: emptyDir
     emptyDirConfig:
       medium: Memory
       size: 1
+
+  securityContext:
+    privileged: true
 
 # Make sure installation don't fail when 0 GPU are assigned
 jellyfinGPU:
