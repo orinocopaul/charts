@@ -115,7 +115,7 @@ podOptions:
 notes:
   header: |
     # Welcome to TrueNAS SCALE
-    Thank you for installing {{ .Chart.Annotations.title }} App.
+    Thank you for installing x {{ .Chart.Annotations.title }} App.
   # custom: "{{ toYaml $.Values }}"
   custom: ""
   footer: |
