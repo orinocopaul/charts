@@ -4,7 +4,8 @@ jellyfinNetwork:
 jellyfinRunAs:
   user: 1000
   group: 1000
-  supplementalGroups: 44
+  supplementalGroups: 
+    -44
 
 jellyfinStorage:
   config:
@@ -16,7 +17,6 @@ jellyfinStorage:
     emptyDirConfig:
       medium: Memory
       size: 1
-
   securityContext:
     privileged: true
 
