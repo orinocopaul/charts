@@ -21,6 +21,8 @@ jellyfinNetwork:
 jellyfinRunAs:
   user: 568
   group: 568
+  supplementalGroups:
+    -44
 
 jellyfinStorage:
   config:
