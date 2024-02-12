@@ -21,7 +21,7 @@ Default:
 notes:
   header: |
     # Welcome to SCALE
-    Thank you for installing <{{ .Chart.Name }}>.
+    Thank you for installing x <{{ .Chart.Name }}>.
   custom: ""
   footer: |
     # Documentation
