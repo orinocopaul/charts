@@ -9,7 +9,7 @@ apiVersion: v2
 appVersion: 10.8.13.1
 kubeVersion: '>=1.16.0-0'
 maintainers:
-  - name: truenas-custom
+  - name: truenasx
     url: https://www.truenas.com/
     email: dev@ixsystems.com
 dependencies:
