@@ -25,7 +25,7 @@
             "kubeVersion": ">=1.16.0-0",
             "maintainers": [
                 {
-                    "name": "truenas-x",
+                    "name": "truenas",
                     "url": "https://www.truenas.com/",
                     "email": "dev@ixsystems.com"
                 }
