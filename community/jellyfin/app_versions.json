@@ -3,7 +3,7 @@
         "healthy": true,
         "supported": false,
         "healthy_error": null,
-        "location": "https://github.com/orinocopaul/charts/tree/community/jellyfin/1.2.7",
+        "location": "github.com/orinocopaul/charts/tree/community/jellyfin/1.2.7",
         "last_update": "2024-02-09 13:12:08",
         "required_features": [
             "normalize/acl",
