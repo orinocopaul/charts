@@ -12,6 +12,8 @@ jellyfinStorage:
     type: pvc
   cache:
     type: pvc
+  securityContext:
+    privileged: true
   transcodes:
     type: emptyDir
     emptyDirConfig:
